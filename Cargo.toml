@@ -46,7 +46,7 @@ easy-cast = "0.4"
 bugreport = "0.4"
 
 [target.'cfg(all(target_family="unix",not(target_os="macos")))'.dependencies]
-which = "4.1"
+which = "4.2"
 
 # pprof is not available on windows
 [target.'cfg(not(windows))'.dependencies]
